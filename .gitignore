@@ -1,0 +1,42 @@
+# --- Frontend (Vue) ---
+# Dependencies
+frontend/node_modules/
+
+# Production build files
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# --- Backend (Maven JPA) ---
+# Maven build target directory
+backend/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Application specific files
+backend/application.properties
+backend/application-*.properties
+backend/application.yml
+backend/application-*.yml
+
+# --- Shared ---
+# Logs
+logs
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
